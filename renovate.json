@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchDatasources": ["maven"],
-      "registryUrls": ["https://maven.xwiki.org/releases", "https://maven.xwiki.org/snapshots", "http://nexus.xwiki.org/nexus/content/repositories/releases/", "http://nexus.xwiki.org/nexus/content/repositories/snapshots/"],
+      "registryUrls": ["https://repo1.maven.org/maven2/", "https://maven.xwiki.org/releases", "https://maven.xwiki.org/snapshots", "http://nexus.xwiki.org/nexus/content/repositories/releases/", "http://nexus.xwiki.org/nexus/content/repositories/snapshots/"],
     },
   ]
 }
