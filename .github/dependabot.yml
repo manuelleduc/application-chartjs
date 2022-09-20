@@ -23,8 +23,8 @@ registries:
   maven-xwiki-public:
     type: maven-repository
     url: https://nexus.xwiki.org/nexus/content/groups/public
-    username: "none"
-    password: "none"
+    username: ${{secrets.NEXUS_USENAME}}
+    password: ${{secrets.NEXUS_PASSWORD}}
 updates:
   - package-ecosystem: "maven"
     directory: "/"
