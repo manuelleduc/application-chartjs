@@ -2,5 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  packageRules: [
+    {
+      matchDatasources: ["maven"],
+      registryUrls: ["https://maven.xwiki.org/releases", "https://maven.xwiki.org/snapshots"],
+    },
   ]
 }
