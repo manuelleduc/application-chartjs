@@ -3,10 +3,10 @@
   "extends": [
     "config:base"
   ],
-  packageRules: [
+  "packageRules": [
     {
-      matchDatasources: ["maven"],
-      registryUrls: ["https://maven.xwiki.org/releases", "https://maven.xwiki.org/snapshots"],
+      "matchDatasources": ["maven"],
+      "registryUrls": ["https://maven.xwiki.org/releases", "https://maven.xwiki.org/snapshots"],
     },
   ]
 }
